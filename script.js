@@ -42,10 +42,12 @@ function pesquisar() {
             `
         }
 
-        if (!resultados) {
+        
+    }
+
+    if (!resultados) {
             resultados = "<p>Nada foi encontrado</p>"
         }
-    }
         // Inicia um loop 'for...of' para percorrer cada item (dado) dentro do array 'dados'.
         // A cada iteração, a variável 'dado' receberá o valor do próximo item do array.
         // Dentro do loop, é construída uma string de HTML para cada resultado da pesquisa.
